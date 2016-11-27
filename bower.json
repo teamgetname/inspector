@@ -1,0 +1,19 @@
+{
+  "name": "inspector",
+  "authors": [
+    "Gabriel Barreto <barreto-gabriel@outlook.com>",
+    "Fabiano Furuta <fabianofuruta@gmail.com>",
+    "Blenda Albuquerque <blendasanches@yahoo.com.br>"
+  ],
+  "description": "Professional networking app for ensures",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

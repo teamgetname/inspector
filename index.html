@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="inspector">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAE6sQquMmxrwtm8lnSfvoa1o55esXncUI&callback=initMap" async defer></script>
+	</head>
+	<body ng-controller="controller">
+	
+		<header ng-include="'../views/header.html'"></header>
+		
+		<main>
+			<section id="map"></section>
+			
+			<section id="pin">
+				<div class="col-lg-12 col-md-12 col-s-12 col-xs-12 address-container">
+					<hgroup>
+						<h3 class="address-comp search-type">Busca: TECNOLOGIA</h3>
+						<h3 class="address-comp">Endereço: Av. Carlos Capriotti, 123</h3>
+						<h3 class="address-comp">Bairro: Centro</h3>					
+						<h3 class="address-comp">Cidade: Barueri</h3>
+						<h3 class="address-comp">Estado: São Paulo</h3>
+					</hgroup>
+				</div>
+			</section>
+		</main>
+		
+		<footer>
+			
+			<!-- SCRIPTS -->
+			<script src="/js/jquery-3.1.1.min.js"></script>
+			<script src="bower_components/angular/angular.js"></script>
+			<script src="js/app.js"></script>
+			<script src="js/controllers.js"></script>
+			<script src="js/services.js"></script>
+			<script src="js/showPosition.js"></script>
+			
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>		
+		</footer>
+	</body>
+</html>
